@@ -13,3 +13,12 @@ channel.send(` الشيخ فريزر الي بيشيل باليزر`);
 client.login(process.env.BOT_TOKEN);
 
 
+
+client.on('message', message => {
+   
+    let args = message.content.split(' ').slice(1).join(' ');
+   
+  if (message.content === 'credit7') {
+      message.channel.send(`#credit`)
+  }
+  });
