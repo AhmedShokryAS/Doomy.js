@@ -16,7 +16,7 @@ client.login(process.env.BOT_TOKEN);
 
 client.on('message', message => {
   if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
+  if (!message.content.startsWith(D)) return;
 
   let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
