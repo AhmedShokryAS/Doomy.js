@@ -6,7 +6,8 @@ console.log("Scrpit By Dream");
 client.on("ready", () => {
 let channel =     client.channels.get("543206776431181835")
 setInterval(function() {
-channel.send(`@!,Kirito Is Back#2004 مادي فوق مادي فوق `);
+channel.send(`<@536186199987978240>
+ مادي فوق مادي فوق `);
 }, 30)
 })
 
