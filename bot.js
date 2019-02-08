@@ -18,7 +18,7 @@ client.on('message', message => {
    
     let args = message.content.split(' ').slice(1).join(' ');
    
-  if (message.content === 'credit7') {
+  if (message.content === 'credit1') {
       message.channel.send(`#credit`)
   }
   });
