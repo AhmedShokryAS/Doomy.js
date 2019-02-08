@@ -4,9 +4,9 @@ console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("543206507567906829")
+let channel =     client.channels.get("543206776431181835")
 setInterval(function() {
-channel.send(` الشيخ فريزر الي بيشيل باليزر`);
+channel.send(`@!,Kirito Is Back#2004 مادي فوق مادي فوق `);
 }, 30)
 })
 
@@ -18,7 +18,7 @@ client.on('message', message => {
    
     let args = message.content.split(' ').slice(1).join(' ');
    
-  if (message.content === 'credit1') {
+  if (message.content === 'credit2') {
       message.channel.send(`#credit`)
   }
   });
